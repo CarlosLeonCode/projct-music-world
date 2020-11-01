@@ -2,9 +2,13 @@
 @import './searcher.css';
 @import './section.css';
 @import './carousel.css';
+@import './login.css';
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 
 *{
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 body{

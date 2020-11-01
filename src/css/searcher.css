@@ -17,6 +17,11 @@
     padding: 0.9rem 2rem;
     background-color: rgba(250,250,250, 0.5);
     color: #fff;
+    transition: background-color .2s;
+}
+
+.search-field__field:hover{
+    background-color: rgba(250,250,250, 0.2);
 }
 
 .main-wp__carousels{
