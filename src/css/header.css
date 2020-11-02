@@ -14,7 +14,7 @@
 
 /* Brand  */
 .header-wrapper .brand img{
-    width: 3rem;
+    width: 2rem;
     margin-left: 1rem;
 }
 
@@ -22,7 +22,7 @@
 .header-wrapper .user-options{
     position: relative;
     display: flex;
-    justify-content: right;
+    justify-content: flex-end;
 }
 
 .user-options .wrapper-options{
@@ -35,6 +35,8 @@
 
 .user-options .wrapper-options:hover.wrapper-options ul, .wrapper-options ul:hover{
     display: inline-block;
+    opacity: 1;
+    transform: translateY(-2rem);
 }
 
 /* image  */
@@ -44,13 +46,13 @@
 }
 
 .user-options .wrapper-options .icon img{
-    width: 3rem;
+    width: 2rem;
 }
 
 /* list  */
 .user-options .wrapper-options ul{
     height: 4rem;
-    top: 2rem;
+    transform: translateY(-4rem);
     padding: 1rem 0;
     position: absolute;
     list-style: none;
@@ -58,7 +60,10 @@
     margin-top: 1rem;
     width: 8rem;
     right: 1rem;
-    display: none;
+    display: block;
+    opacity: 0;
+    transition: opacity .2s .2s,
+                transform .1s .2s;
 }
 
 /* List style  */

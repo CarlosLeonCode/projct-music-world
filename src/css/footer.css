@@ -1,0 +1,34 @@
+.footer{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 4rem;
+    align-items: center;
+}
+
+.footer .content{
+    grid-column: 2/3;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.content .credits{
+    justify-self: start;
+    color: #fff;
+}
+
+.content .social-media{
+    justify-self: end;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.social-media img{
+    width: 2rem;
+    margin-left: 1rem;
+    transition: transform .2s;
+}
+
+.social-media img:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
