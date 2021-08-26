@@ -37,6 +37,14 @@
     overflow: hidden;
 }
 
+.artist-card:hover{
+    cursor: pointer;
+}
+
+.artist-card:hover.artist-card .wall{
+    background-color: white;
+}
+
 .artist-card::before{
     position: absolute;
     width: 100%;
@@ -53,6 +61,7 @@
     position: absolute;
     bottom: 0;
     opacity: 0.5;
+    transition: background-color .2s;
 }
 
 .artist-info{
@@ -63,6 +72,11 @@
 
 .artist-info .artist-picture{
     margin-top: 2rem;
+    transition: transform .2s;
+}
+
+.artist-card:hover .artist-info .artist-picture{
+    transform: scale(1.3);
 }
 
 .artist-info .pill{
@@ -81,13 +95,17 @@
     width: 100%;
     height: 80%;
     background-color: rgba(0, 0, 0, 0.5);
-    padding: 1rem 0;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .artist-info .details p{
     text-align: center;
     font-size: .9rem;
     color: #fff;
+    margin: 1rem;
 }
 
 /* * mini cards  */
@@ -112,6 +130,15 @@
 .mini-card .artist-picture{
     width: auto;
     height: auto;
+    transition: transform .2s;
+}
+
+.mini-card:hover{
+    cursor: pointer;
+}
+
+.mini-card:hover .artist-picture{
+    transform: scale(1.2);
 }
 
 .mini-card .name{

@@ -1,21 +1,24 @@
-# Hi Coders!
+# 🙌 Hi Coders!
 
-This is a music website, is just a concept and was developed with native code.
+This is a music website, it is just a concept and was developed with native code.
 
-## Technologies
+## 👉 Technologies
 
-- HTML5
-- CSS3
-
-## Link
+- 📌 HTML5
+- 📌 CSS3 (Grid layout)
+- 📌 JavaScript
+## 👉 Website
 You can see the project at:
 
-[Site link](https://cocky-babbage-b9c92e.netlify.app/)
+📍 [Music World website link](https://cocky-babbage-b9c92e.netlify.app/)
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 Please make sure to update tests as appropriate.
 
-## License
+## 👉 License
 [MIT](https://choosealicense.com/licenses/mit/)
+
+
+👨‍💻 🎼🎼🎼
