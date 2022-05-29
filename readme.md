@@ -12,7 +12,7 @@ This is a music website, it is just a concept and was developed with native code
 ## 👉 Website
 You can see the project at:
 
-📍 [Music World website link](https://carlosleoncode.github.io/Music-world/)
+📍 [Music World website link](https://carlosleoncode.github.io/projct-music-world/)
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
